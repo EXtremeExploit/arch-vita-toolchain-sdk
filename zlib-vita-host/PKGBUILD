@@ -2,7 +2,7 @@
 # Maintainer: Axel Moinet (BuLLeKeUp) <bullekeup@gmail.com>
 
 pkgname=zlib-vita-host
-pkgver=1.2.8
+pkgver=1.2.13
 pkgrel=1
 pkgdesc='Compression library implementing the deflate compression method found in gzip and PKZIP - PSVita toolchain build'
 arch=('i686' 'x86_64')
@@ -11,7 +11,7 @@ url="http://www.zlib.net/"
 depends=('glibc')
 options=('staticlibs')  # needed by binutils testsuite
 source=("http://zlib.net/current/zlib-${pkgver}.tar.gz")
-md5sums=('44d667c142d7cda120332623eab69f40')
+md5sums=('9b8aa094c4e5765dabf4da391f00d15c')
 groups=('vita-toolchain-hostlibs')
 
 CTARGET="arm-vita-eabi"
